@@ -1,3 +1,8 @@
+section{ 
+    height: 3rem;
+    background-color: blue;
+}
 header{
-    background-image: url("./img/Fundo_jardim.png");
+    background: #ffffff url("./img/Fundo_jardim.png") no-repeat left top;
+    background-size: 100% 100%;
 }
