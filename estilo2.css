@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sansdislay=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Inter';
+}
+
+:root{
+    --primary: blue;
+    --secondary: red;
+    --white: white;
+    --black: black;
+}
+
 section { 
     display: flex;
     justify-content: none;
@@ -23,7 +39,30 @@ main {
     align-items: center;
 }
 
+.texto2 {
+    font-size: 2.3rem; 
+    color: white; 
+    left: 1%;
+    top: 134%;
+    transform: translateY(-60%); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: inline;
+    margin: 0 10px;
+}
+
+.texto_header {
+    font-size: 2.3rem; 
+    color: white; 
+    left: 1%;
+    top: 10%;
+    transform: translateY(-10%); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: inline;
+    margin: 0 10px;
+}
+
 footer{
     height: 3rem;
     background-color: blue;
+    padding: 20px;
 }

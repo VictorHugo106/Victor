@@ -72,10 +72,14 @@ main {
 }
 
 .texto {
-    position: absolute; 
-    font-size: 2.3rem; 
+    font-size: 2.3rem;
     color: white; 
     left: 1%;
+    top: 134%;
+    transform: translateY(-60%); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: inline;
+    margin: 0 10px;
 }
 
 .texto_quadrado {

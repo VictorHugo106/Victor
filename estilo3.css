@@ -1,4 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sansdislay=swap');
+
+section { 
+    display: flex;
+    justify-content: none;
+    border-bottom: var(--primary);
+    border-bottom-width: 0rem;
+    border-bottom-style: solid;
+    height: 3rem;
+    background-color: blue;
+}
+
+main {
+    background-color: black;
+    height: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 footer{
     height: 3rem;
     background-color: blue;
+}
+
+.texto3 {
+    font-size: 2.3rem; 
+    color: white; 
+    left: 1%;
+    top: 134%;
+    transform: translateY(-60%); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: inline;
+    margin: 0 10px;
+}
+
+.texto_header {
+    font-size: 2.3rem; 
+    color: white; 
+    left: 1%;
+    top: 10%;
+    transform: translateY(-10%); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: inline;
+    margin: 0 10px;
+}
+
+.texto_quadrado {
+    position: absolute; 
+    font-size: 2.3rem; 
+    color: white; 
+    top: 77%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cabeçalho {
+    position: absolute; 
+    font-size: 2.3rem; 
+    color: white; 
+    top: 50.3%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
