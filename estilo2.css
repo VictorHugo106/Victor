@@ -1,0 +1,29 @@
+section { 
+    display: flex;
+    justify-content: none;
+    border-bottom: var(--primary);
+    border-bottom-width: 0rem;
+    border-bottom-style: solid;
+    height: 3rem;
+    background-color: blue;
+}
+
+.centro_da_comunidade {
+    width: 1500px; 
+    height: 1000px; 
+    background-color:gray; 
+    border-radius: 20px; 
+}
+
+main {
+    background-color: black;
+    height: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 3rem;
+    background-color: blue;
+}

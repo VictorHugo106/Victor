@@ -1,8 +1,107 @@
-section{ 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sansdislay=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Inter';
+}
+
+:root{
+    --primary: blue;
+    --secondary: red;
+    --white: white;
+    --black: black;
+}
+
+section { 
+    display: flex;
+    justify-content: none;
+    border-bottom: var(--primary);
+    border-bottom-width: 0rem;
+    border-bottom-style: solid;
     height: 3rem;
     background-color: blue;
 }
-header{
+
+section img {
+    padding: 0.2rem;
+}
+
+header {
+    display: flex;
+    justify-content: none;
+    border-bottom: var(--primary);
+    border-bottom-width: 0rem;
+    border-bottom-style: solid;
+    height: 9rem;
     background: #ffffff url("./img/Fundo_jardim.png") no-repeat left top;
     background-size: 100% 100%;
 }
+header img {
+    padding: 0.3rem;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: var(--third);
+}
+header nav a:hover {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quadrado {
+    width: 1300px; 
+    height: 350px; 
+    background-color: white; 
+    border: 2px solid black;
+    border-width: 0.4rem;
+}
+
+.texto {
+    position: absolute; 
+    font-size: 2.3rem; 
+    color: white; 
+    left: 1%;
+}
+
+.texto_quadrado {
+    position: absolute; 
+    font-size: 2.3rem; 
+    color: black; 
+    top: 77%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cabeçalho {
+    position: absolute; 
+    font-size: 2.3rem; 
+    color: black; 
+    top: 60.3%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: red;
+}
+
+
+footer{
+    height: 3rem;
+    background-color: blue;
+}
+
